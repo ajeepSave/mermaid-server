@@ -1,4 +1,4 @@
-DOCKER_IMAGE=tomwright/mermaid-server:latest
+DOCKER_IMAGE=mermaid-server:10.5.0
 CONTAINER_NAME=mermaid-server
 
 docker-image:

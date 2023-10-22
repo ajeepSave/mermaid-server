@@ -16,6 +16,7 @@ WORKDIR /root
 
 # copy the mermaidcli node package into the container and install
 COPY ./mermaidcli/* ./
+COPY ./usr/share/fonts/simhei.ttf /usr/share/fonts/
 
 RUN npm install && npm cache clean --force;
 
